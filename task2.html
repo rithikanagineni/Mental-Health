@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mind Wellness | Mental Health Platform</title>
+  <link rel="stylesheet" href="task2.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#home" class="brand">
+        <div class="brand-icon">🧠</div>
+        <div class="brand-text">
+          <span class="brand-top">Mind</span>
+          <span class="brand-bottom">Wellness</span>
+        </div>
+      </a>
+
+      <nav class="nav">
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#services">Services</a>
+        <a href="#conditions">Conditions</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">🌟 #1 Rated Mental Health Platform</p>
+          <h1>Your Mental Health Matters</h1>
+          <p class="hero-desc">
+            Professional therapy and counseling services tailored to your unique needs. 
+            Take the first step towards healing with compassionate, evidence-based care.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">Get Started Today</a>
+            <a href="#services" class="btn btn-secondary">Our Services</a>
+          </div>
+
+          <div class="hero-stats">
+            <div class="stat-box">
+              <strong>10K+</strong>
+              <span>Patients Helped</span>
+            </div>
+            <div class="stat-box">
+              <strong>50+</strong>
+              <span>Licensed Therapists</span>
+            </div>
+            <div class="stat-box">
+              <strong>98%</strong>
+              <span>Satisfaction Rate</span>
+            </div>
+            <div class="stat-box">
+              <strong>🏆 15+ Years</strong>
+              <span>of trusted care</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Fixed Visual Area -->
+        <div class="hero-visual">
+          <div class="visual-main">
+            <div class="visual-badge">Caring for your mind</div>
+            <h3>Safe, confidential, and personalized therapy sessions</h3>
+            
+            <div class="wellness-focus">
+              <div class="focus-label">Today’s Wellness Focus</div>
+              <div class="focus-content">
+                <strong>Mindfulness + Stress Relief</strong>
+                <div class="progress-ring">
+                  <span>94%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="visual-side">
+            <div class="side-card">
+              <span class="side-icon">🔒</span>
+              <strong>100% Confidential</strong>
+              <p>Private care you can trust</p>
+            </div>
+            <div class="side-card">
+              <span class="side-icon">💻</span>
+              <strong>Online Sessions</strong>
+              <p>Accessible from anywhere</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+      <div class="container about-grid">
+        <div class="about-copy">
+          <p class="section-label">About Us</p>
+          <h2>Caring for Your Mind & Soul</h2>
+          <p>
+            At MindWellness Center, we understand that mental health is just as important as physical health.
+            Our team of licensed therapists, psychologists, and counselors are dedicated to providing
+            compassionate, confidential care.
+          </p>
+          <p>
+            We use evidence-based approaches including CBT, DBT, mindfulness therapy, and more to help you
+            overcome challenges and build resilience.
+          </p>
+
+          <div class="feature-tags">
+            <span>👨‍⚕️ Licensed Experts</span>
+            <span>🔒 100% Confidential</span>
+            <span>💻 Online Sessions</span>
+            <span>🕐 24/7 Support</span>
+          </div>
+        </div>
+
+        <div class="about-panel">
+          <div class="panel-item">
+            <div class="panel-icon">👨‍⚕️</div>
+            <div>
+              <h4>Licensed Experts</h4>
+              <p>Qualified therapists and counselors</p>
+            </div>
+          </div>
+          <div class="panel-item">
+            <div class="panel-icon">🔒</div>
+            <div>
+              <h4>100% Confidential</h4>
+              <p>Your privacy is always protected</p>
+            </div>
+          </div>
+          <div class="panel-item">
+            <div class="panel-icon">💻</div>
+            <div>
+              <h4>Online Sessions</h4>
+              <p>Flexible sessions from home</p>
+            </div>
+          </div>
+          <div class="panel-item">
+            <div class="panel-icon">🕐</div>
+            <div>
+              <h4>24/7 Support</h4>
+              <p>Care available when you need it</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="section section-alt">
+      <div class="container">
+        <p class="section-label">Our Services</p>
+        <h2>Comprehensive mental health services designed to support you at every stage of your journey.</h2>
+
+        <div class="service-grid">
+          <article class="service-card">
+            <div class="service-icon">🗣️</div>
+            <h3>Individual Therapy</h3>
+            <p>One-on-one sessions with a licensed therapist to address personal challenges, trauma, and emotional struggles.</p>
+            <button type="button" class="service-btn" onclick="chooseService('Individual Therapy')">Book Now →</button>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon">👨‍👩‍👧</div>
+            <h3>Family Counseling</h3>
+            <p>Strengthen family relationships through guided sessions that improve communication and resolve conflicts.</p>
+            <button type="button" class="service-btn" onclick="chooseService('Family Counseling')">Book Now →</button>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon">💑</div>
+            <h3>Couples Therapy</h3>
+            <p>Rebuild trust, improve communication, and deepen your connection with professional relationship guidance.</p>
+            <button type="button" class="service-btn" onclick="chooseService('Couples Therapy')">Book Now →</button>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon">🧒</div>
+            <h3>Child & Teen Therapy</h3>
+            <p>Age-appropriate therapy for children and adolescents dealing with behavioral, emotional, or social challenges.</p>
+            <button type="button" class="service-btn" onclick="chooseService('Child & Teen Therapy')">Book Now →</button>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon">💻</div>
+            <h3>Online Counseling</h3>
+            <p>Convenient virtual therapy sessions from the comfort of your home, with the same quality of care.</p>
+            <button type="button" class="service-btn" onclick="chooseService('Online Counseling')">Book Now →</button>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon">🧘</div>
+            <h3>Stress Management</h3>
+            <p>Learn proven techniques to manage stress, practice mindfulness, and achieve work-life balance.</p>
+            <button type="button" class="service-btn" onclick="chooseService('Stress Management')">Book Now →</button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Conditions -->
+    <section id="conditions" class="section">
+      <div class="container">
+        <p class="section-label">Conditions We Treat</p>
+        <h2>We provide specialized treatment for a wide range of mental health conditions.</h2>
+
+        <div class="condition-grid">
+          <div class="condition-card"><span>😰</span><h3>Anxiety Disorders</h3><p>GAD, panic attacks, social anxiety, phobias</p></div>
+          <div class="condition-card"><span>😔</span><h3>Depression</h3><p>Major depression, persistent depressive disorder</p></div>
+          <div class="condition-card"><span>😱</span><h3>PTSD & Trauma</h3><p>PTSD, childhood trauma, abuse recovery</p></div>
+          <div class="condition-card"><span>😤</span><h3>Anger Management</h3><p>Impulse control, emotional regulation</p></div>
+          <div class="condition-card"><span>🔄</span><h3>OCD</h3><p>Obsessive-compulsive disorder treatment</p></div>
+          <div class="condition-card"><span>😴</span><h3>Sleep Disorders</h3><p>Insomnia, nightmares, sleep anxiety</p></div>
+          <div class="condition-card"><span>🍽️</span><h3>Eating Disorders</h3><p>Anorexia, bulimia, binge eating</p></div>
+          <div class="condition-card"><span>💔</span><h3>Grief & Loss</h3><p>Bereavement, life transitions, loss</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Impact -->
+    <section id="impact" class="section section-alt">
+      <div class="container">
+        <p class="section-label">Our Impact</p>
+        <h2>Making a measurable difference in mental health care.</h2>
+
+        <div class="impact-grid">
+          <div class="impact-card">
+            <div class="impact-icon">👥</div>
+            <h3>10,000+</h3>
+            <p>Patients Helped</p>
+          </div>
+          <div class="impact-card">
+            <div class="impact-icon">👨‍⚕️</div>
+            <h3>50+</h3>
+            <p>Expert Therapists</p>
+          </div>
+          <div class="impact-card">
+            <div class="impact-icon">⭐</div>
+            <h3>4.9/5</h3>
+            <p>Patient Rating</p>
+          </div>
+          <div class="impact-card">
+            <div class="impact-icon">🌍</div>
+            <h3>25+</h3>
+            <p>Countries Served</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stories -->
+    <section id="stories" class="section">
+      <div class="container">
+        <p class="section-label">Recovery Stories</p>
+        <h2>Real stories from real people who found hope and healing with us.</h2>
+
+        <div class="story-grid">
+          <article class="story-card">
+            <div class="stars">★★★★★</div>
+            <p>
+              "After years of struggling with anxiety, MindWellness helped me find peace. My therapist taught me
+              coping strategies that changed my life. I finally feel like myself again."
+            </p>
+            <div class="story-person">
+              <div class="story-avatar">S</div>
+              <div>
+                <h4>Sarah M.</h4>
+                <span>Anxiety Recovery</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="story-card">
+            <div class="stars">★★★★★</div>
+            <p>
+              "The couples therapy sessions saved our marriage. We learned to communicate effectively and rebuild trust.
+              Our therapist was incredibly patient and professional."
+            </p>
+            <div class="story-person">
+              <div class="story-avatar">D</div>
+              <div>
+                <h4>David & Emma</h4>
+                <span>Couples Therapy</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="story-card">
+            <div class="stars">★★★★★</div>
+            <p>
+              "I was hesitant to try online therapy, but the convenience and quality exceeded my expectations.
+              My therapist is amazing, and I've made incredible progress with my depression."
+            </p>
+            <div class="story-person">
+              <div class="story-avatar">R</div>
+              <div>
+                <h4>Raj P.</h4>
+                <span>Online Counseling</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+<section id="faq" class="section section-alt">
+  <div class="container faq-container">
+    <p class="section-label">Frequently Asked Questions</p>
+    <h2>Find answers to common questions about our mental health services.</h2>
+
+    <div class="faq-list">
+
+      <details class="faq-item">
+        <summary>How do I know if I need therapy?</summary>
+        <p>
+          If you find yourself struggling with persistent feelings of sadness, anxiety, anger, or overwhelm that affect your daily life, work, relationships, or sleep, therapy can be very helpful. 
+          Other signs include difficulty concentrating, loss of interest in activities you once enjoyed, frequent emotional outbursts, or feeling disconnected from yourself and others. 
+          You don’t need to be in a crisis to seek support — many people come to therapy for personal growth, stress management, or to build better coping skills. 
+          Therapy is a safe space to explore your thoughts and emotions with professional guidance. 
+          Remember, asking for help is a sign of strength, not weakness. 
+          Our team can help you determine whether therapy is the right step for you during a free consultation.
+        </p>
+      </details>
+
+      <details class="faq-item">
+        <summary>Are sessions confidential?</summary>
+        <p>
+          Yes, all sessions at MindWellness are completely confidential. 
+          Your privacy is our top priority. 
+          Everything you share with your therapist remains strictly between you and your counselor, unless there is an immediate risk of harm to yourself or others. 
+          We follow strict ethical guidelines and legal requirements to protect your information. 
+          Our platform uses secure, encrypted technology for online sessions so your conversations stay private. 
+          You can feel safe knowing that your personal story is handled with the utmost care and respect. 
+          We are fully compliant with privacy laws and never share your information without your explicit consent.
+        </p>
+      </details>
+
+      <details class="faq-item">
+        <summary>Do you accept insurance?</summary>
+        <p>
+          We work with most major insurance providers to make mental health care more accessible. 
+          During your initial consultation, our team will help verify your insurance benefits and explain your coverage. 
+          We also offer flexible self-pay options and sliding scale fees for those without insurance or with high deductibles. 
+          Our goal is to remove financial barriers so everyone can receive quality mental health support. 
+          If you have any questions about insurance or payment plans, our friendly administrative team is always happy to assist you. 
+          Transparency in pricing and coverage is very important to us.
+        </p>
+      </details>
+
+      <details class="faq-item">
+        <summary>How long does therapy take?</summary>
+        <p>
+          The duration of therapy varies from person to person depending on your goals, the challenges you're facing, and how quickly you respond to treatment. 
+          Some people benefit from short-term therapy (6–12 sessions) for specific issues like stress or grief. 
+          Others may engage in longer-term therapy (several months to a year) to work through deeper trauma or long-standing patterns. 
+          Your therapist will work with you to create a personalized treatment plan and regularly review your progress. 
+          You are always in control — you can continue or pause therapy whenever you feel ready. 
+          Our focus is on helping you achieve meaningful and lasting change at a pace that feels right for you.
+        </p>
+      </details>
+
+      <details class="faq-item">
+        <summary>Can I do therapy online?</summary>
+        <p>
+          Yes! We offer secure and convenient online therapy sessions through our encrypted video platform. 
+          Online counseling provides the same quality of care as in-person sessions while offering greater flexibility. 
+          You can attend sessions from the comfort of your home, office, or anywhere with a stable internet connection. 
+          Many clients prefer online therapy because it saves travel time and reduces scheduling stress. 
+          Our online platform is user-friendly and fully HIPAA-compliant to ensure your privacy and safety. 
+          Whether you choose online or in-person sessions, you will receive the same compassionate and professional support.
+        </p>
+      </details>
+
+    </div>
+  </div>
+</section>
+
+    <!-- CTA -->
+    <section class="cta-banner">
+      <div class="container cta-inner">
+        <div>
+          <p class="section-label light">You Don't Have to Face It Alone</p>
+          <h2>Take the first step towards a healthier, happier you.</h2>
+          <p>
+            Our compassionate team is ready to support you on your journey to wellness.
+          </p>
+        </div>
+
+        <div class="cta-actions">
+          <a href="#contact" class="btn btn-light">Book Free Consultation</a>
+          <p class="cta-phone">📞 Call: +91 8973812837</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <div class="container">
+        <p class="section-label">Get in Touch</p>
+        <h2>Ready to start your healing journey? Reach out to us today.</h2>
+
+        <div class="contact-grid">
+          <div class="contact-info">
+            <div class="info-card">
+              <h3>Let's Talk</h3>
+              <p>Whether you're seeking therapy for yourself, a loved one, or just have questions, we're here to help. Reach out anytime.</p>
+            </div>
+
+            <div class="info-list">
+              <div class="info-item">
+                <span>📍</span>
+                <div>
+                  <h4>Visit Us</h4>
+                  <p>456 Wellness Ave, Suite 200, New York, NY 10001</p>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <span>📧</span>
+                <div>
+                  <h4>Email Us</h4>
+                  <p>care@mindwellness.org</p>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <span>📞</span>
+                <div>
+                  <h4>Call Us</h4>
+                  <p>+91 8973812837</p>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <span>🕐</span>
+                <div>
+                  <h4>Hours</h4>
+                  <p>Mon-Fri: 8AM-8PM | Sat: 9AM-5PM</p>
+                </div>
+              </div>
+
+              <div class="info-item crisis">
+                <span>🆘</span>
+                <div>
+                  <h4>In Crisis? Get Help Now</h4>
+                  <p>National Suicide Prevention: Call or text 988</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <form class="appointment-form" id="appointmentForm">
+            <h3>📋 Book an Appointment</h3>
+
+            <div class="form-row">
+              <div class="field">
+                <label for="firstName">First Name</label>
+                <input id="firstName" type="text" placeholder="John" required />
+              </div>
+              <div class="field">
+                <label for="lastName">Last Name</label>
+                <input id="lastName" type="text" placeholder="Doe" required />
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="field">
+                <label for="email">Email</label>
+                <input id="email" type="email" placeholder="john@example.com" required />
+              </div>
+              <div class="field">
+                <label for="phone">Phone</label>
+                <input id="phone" type="tel" placeholder="+1 (555) 000-0000" required />
+              </div>
+            </div>
+
+            <div class="field">
+              <label for="service">Service Needed</label>
+              <select id="service" required>
+                <option value="" disabled selected>Select a service...</option>
+                <option>Individual Therapy</option>
+                <option>Family Counseling</option>
+                <option>Couples Therapy</option>
+                <option>Child & Teen Therapy</option>
+                <option>Online Counseling</option>
+                <option>Stress Management</option>
+              </select>
+            </div>
+
+            <div class="field">
+              <label for="message">Tell Us More</label>
+              <textarea id="message" rows="5" placeholder="Share what you're comfortable with..."></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary full-btn">Request Appointment</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+    <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="#home" class="brand footer-brand">
+          <div class="brand-icon">🧠</div>
+          <div class="brand-text">
+            <span class="brand-top">Mind</span>
+            <span class="brand-bottom">Wellness</span>
+          </div>
+        </a>
+        <p class="footer-desc">
+          Dedicated to providing compassionate, evidence-based mental health care. 
+          Your journey to wellness starts here.
+        </p>
+
+        <div class="socials">
+          <a href="#" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+      </div>
+
+      <div>
+        <h4>Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#conditions">Conditions</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#stories">Stories</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Services</h4>
+        <ul class="footer-links">
+          <li><a href="#services">Individual Therapy</a></li>
+          <li><a href="#services">Couples Therapy</a></li>
+          <li><a href="#services">Family Counseling</a></li>
+          <li><a href="#services">Online Sessions</a></li>
+          <li><a href="#services">Stress Management</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Resources</h4>
+        <ul class="footer-links">
+          <li><a href="https://www.nimh.nih.gov/" target="_blank">National Institute of Mental Health</a></li>
+          <li><a href="https://adaa.org/" target="_blank">Anxiety & Depression Association of America</a></li>
+          <li><a href="https://www.who.int/health-topics/mental-health" target="_blank">World Health Organization - Mental Health</a></li>
+          <li><a href="https://www.psychologytoday.com/" target="_blank">Psychology Today - Find a Therapist</a></li>
+          <li><a href="https://www.calm.com/" target="_blank">Calm - Guided Meditation & Sleep</a></li>
+          <li><a href="https://www.headspace.com/" target="_blank">Headspace - Mindfulness Tools</a></li>
+          <li><a href="https://988lifeline.org/" target="_blank">988 Suicide & Crisis Lifeline</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      © 2024 MindWellness Center. All rights reserved. | Created by Nagineni Rithika 🌟
+    </div>
+  </footer>
+
+  <script>
+    function chooseService(service) {
+      const select = document.getElementById("service");
+      if (select) {
+        select.value = service;
+      }
+      document.getElementById("contact").scrollIntoView({ behavior: "smooth" });
+    }
+
+    document.addEventListener("DOMContentLoaded", function () {
+      const form = document.getElementById("appointmentForm");
+
+      form.addEventListener("submit", function (e) {
+        e.preventDefault();
+        alert("✅ Thank you! Your appointment request has been received. Our team will contact you soon.");
+        form.reset();
+      });
+    });
+  </script>
+
+</body>
+</html>
